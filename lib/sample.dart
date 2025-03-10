@@ -1,10 +1,11 @@
 import 'package:git_test/secrets.dart';
 
-String sample = "fasdfasf";
+String sample = "sample";
 
 
 Secrets secrets = Secrets();
 
 getSecrets() {
   print(secrets.secret);
+  print(secrets.value);
 }
