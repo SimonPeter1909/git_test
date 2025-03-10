@@ -8,4 +8,5 @@ Secrets secrets = Secrets();
 getSecrets() {
   print(secrets.secret);
   print(secrets.value);
+  print(secrets.show);
 }
